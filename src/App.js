@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Salut Romane
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <nav style={{ width: '100%', height: '60px', background: '#333', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+        <div style={{ marginLeft: '15px' }}>Moi</div>
+        <div style={{ marginRight: '15px' }}>Toi</div>
+      </nav>
+
+      <div>
+        Principal
+      </div>
+
     </div>
   );
 }
