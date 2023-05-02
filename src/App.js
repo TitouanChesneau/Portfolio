@@ -1,8 +1,14 @@
+import { BrowserRouter } from "react-router-dom";
+
+import AppRoutes from "./Routes";
 
 function App() {
   return (
     <div>
+      <BrowserRouter>
 
+      <AppRoutes />
+            
       <nav style={{ width: '100%', height: '60px', background: '#333', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
         <div style={{ marginLeft: '15px' }}>Moi</div>
         <div style={{ marginRight: '15px' }}>Toi</div>
@@ -12,6 +18,7 @@ function App() {
         Principal
       </div>
 
+      </BrowserRouter>
     </div>
   );
 }
